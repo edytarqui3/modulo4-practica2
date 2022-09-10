@@ -45,6 +45,14 @@ A partir de aquí, el módulo cuenta con 4 tipos de streams que podemos consumir
     ```sh
     a.pipe(b).pipe(a);
     ```
+
+     en el ejemplo usasermos duplex.js
+
+    ```sh
+    node duplex.js
+    ```
+    ejecucion de codigo la salida es la siguiente:
+    ![Ejecucion Duplex](run-duplex.PNG)
 - **Stream Transform**, Un stream transform es un caso específico de stream duplex. Es también un stream de lectura y escritura, con la diferencia que nos permite realizar transformaciones sobre la lectura o sobre la escritura.
 
     en el ejemplo usasermos transform.js
