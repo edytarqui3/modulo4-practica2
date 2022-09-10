@@ -1,0 +1,30 @@
+{
+  "name": "modulo4-practica2",
+  "version": "1.0.0",
+  "description": "Desarrollar un ejemplo de uso de Streams en Node",
+  "main": "tranform.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edytarqui3/modulo4-practica2.git"
+  },
+  "keywords": [
+    "read",
+    "write",
+    "duplex",
+    "o",
+    "transform",
+    "stream"
+  ],
+  "author": "Edy Felix Tarqui Guarachi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edytarqui3/modulo4-practica2/issues"
+  },
+  "homepage": "https://github.com/edytarqui3/modulo4-practica2#readme",
+  "dependencies": {
+    "multiparty": "^4.2.3"
+  }
+}
